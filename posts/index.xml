@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo Belot-Deloro&#39;s blog</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Hugo Belot-Deloro&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 09 Feb 2022 22:32:01 +0100</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Introduction to IPFS</title>
+      <link>http://example.org/posts/an-introduction-to-ipfs/</link>
+      <pubDate>Wed, 09 Feb 2022 22:32:01 +0100</pubDate>
+      
+      <guid>http://example.org/posts/an-introduction-to-ipfs/</guid>
+      <description>Note: as the title might suggest, this article is a bit heavy on acronyms. There is a glossary at the end though, in case you need a refresher on some terms.
+What is the IPFS ?  The InterPlanetary File System or IPFS for shorts is a peer to peer network that acts like a distributed file system, allowing storage and sharing of files, data, websites and applications. It is based around a philosophy of modularity, and as such it is actually composed of many independent projects.</description>
+    </item>
+    
+  </channel>
+</rss>
