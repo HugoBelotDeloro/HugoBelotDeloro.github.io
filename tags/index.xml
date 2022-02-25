@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hugo Belot-Deloro&#39;s blog</title>
-    <link>http://example.org/tags/</link>
+    <link>https://hugobelotdeloro.github.io/tags/</link>
     <description>Recent content in Tags on Hugo Belot-Deloro&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Feb 2022 22:32:01 +0100</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 22:32:01 +0100</lastBuildDate><atom:link href="https://hugobelotdeloro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IPFS</title>
-      <link>http://example.org/tags/ipfs/</link>
+      <link>https://hugobelotdeloro.github.io/tags/ipfs/</link>
       <pubDate>Wed, 09 Feb 2022 22:32:01 +0100</pubDate>
       
-      <guid>http://example.org/tags/ipfs/</guid>
+      <guid>https://hugobelotdeloro.github.io/tags/ipfs/</guid>
       <description></description>
     </item>
     
