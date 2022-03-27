@@ -276,7 +276,7 @@ You can also keep your node from providing non-pinned CIDs with a configuration 
 This is much unlike the location-based addressing of URLs, and while it means noone can hijack your favorite web page to add malware to it, it also means that when said page is updated, your link still points to the same old version and you now need a new CID.</p>
 <p>To solve this issue, IPFS offers pointers. These pointers have a CID, but it does not depend on the data they point to, and as such they can allow the pointed data to change.</p>
 <h2 id="persistence">Persistence</h2>
-<p>IPFS aims to increase web pages' persistence by ensuring files are not deleted as long as they are in use.
+<p>IPFS aims to increase web pages&rsquo; persistence by ensuring files are not deleted as long as they are in use.
 This is done by having people redistribute CIDs they recently queried, though to ensure a page stays up permanently it is recommended that the page&rsquo;s owner pins it on his own node.
 This way there is no need for servers.
 IPFS uses a garbage collector which regularly frees up the data it considers no longer needed.</p>
@@ -400,7 +400,7 @@ Your solution is then to convert your binary file into a text file using only su
 The issue that arises from that is obviously that when receiving such text-encoded binary data, one might not know what the encoding is.
 Provided the text fragment is long enough one might be able to infer the set of all characters used in the encoding scheme, but there might still be several encodings using the same set of characters and which assign different values to the same character.</p>
 <p><em>Multibase</em> is a protocol that lets you add a layer of encoding in which you prefix your encoded data with a single character identifying a single binary-to-text encoding.
-For example, the character &rsquo;m' denote base64, a &lsquo;f&rsquo; denotes hexadecimal and a &lsquo;z&rsquo; denotes base58.
+For example, the character &rsquo;m&rsquo; denote base64, a &lsquo;f&rsquo; denotes hexadecimal and a &lsquo;z&rsquo; denotes base58.
 Do note that there is only one multibase table, it is not a default table like the multicodec table, probably because there are far fewer encodings than data types.</p>
 <p>Here is the current multibase table, with only the default (permanent) entries. See <a href="https://github.com/multiformats/multibase/blob/master/multibase.csv">here</a> for the full table.</p>
 <table>
@@ -702,7 +702,7 @@ While libp2p includes some <a href="https://docs.libp2p.io/concepts/nat/">utilit
 <h1 id="final-thoughts">Final thoughts</h1>
 <p>While I don&rsquo;t think IPFS is currently able to replace the &ldquo;centralized&rdquo; web or even if it will ever reach such a state, I do think the many challenges faced by IPFS&rsquo;s creators were worth solving.
 Projects like IPLD, libp2p and espescially Multiformats are offering solutions to problems many developers have been facing in the past and will be faced with again in the future.
-In a world where a few gargantuan companies' control over Internet grows more concerning every day, there is definitely value in making sure their vision of Internet is not the only viable one.</p>
+In a world where a few gargantuan companies&rsquo; control over Internet grows more concerning every day, there is definitely value in making sure their vision of Internet is not the only viable one.</p>
 <h1 id="glossary">Glossary</h1>
 <p>There are a lot of acronyms around IPFS. Here are some of them.</p>
 <ul>
@@ -726,7 +726,7 @@ For an unsigned integer stored as text, you could encode it using its binary (<s
 To store text as numbers, you could use ASCII or UTF-8 for example.</li>
 <li><strong>base58</strong>: an encoding that uses alphanumeric characters (digits, lowercase letters, uppercase letters) with a 58 radix to store numbers.
 You might notice that things do not quite add up though: there are 26 lowercase letters, just as many uppercase and ten digits.
-That sums to 62 characters, not 58. This is because characters 0, O, l and I (zero, uppercase &lsquo;o&rsquo;, lowercase &lsquo;l&rsquo; and uppercase &lsquo;i&rsquo;) are left out due to often being too visually similar.</li>
+That sums to 62 characters, not 58. This is because characters 0, O, l and I (zero, uppercase &lsquo;o&rsquo;, lowercase &rsquo;l&rsquo; and uppercase &lsquo;i&rsquo;) are left out due to often being too visually similar.</li>
 <li><strong>Peer</strong>: a member of a decentralized network.</li>
 <li><strong>DAG (Directed Acyclic Graph)</strong>: A graph (nodes and links between two nodes) where the links between nodes have a direction (they are not bidirectional) and there is no cycle (given a node N, it is impossible to build a non-empty path that would start on N and end on N).</li>
 </ul>
